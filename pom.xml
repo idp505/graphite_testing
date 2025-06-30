@@ -18,10 +18,6 @@
 
   <modules>
     <module>bundles/graphite</module>
-    <module>languages/cloudServicesDsl</module>
-    <module>languages/fuzzingTestingDsl</module>
-    <module>languages/projectSchedulingDsl</module>
-    <module>languages/structurizrDsl</module>
     <module>features</module>
     <module>releng</module>
   </modules>
