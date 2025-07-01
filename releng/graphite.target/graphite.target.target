@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
-<target name="Graphite Target Platform" sequenceNumber="1751393195">
+<target name="Graphite Target Platform" sequenceNumber="1751393820">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.eclipse.license.feature.group" version="0.0.0"/>
@@ -35,6 +35,7 @@
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.eclipse.xtext.sdk.feature.group" version="2.36.0.v20240825-0714"/>
       <unit id="org.eclipse.xtext.xtext.generator" version="0.0.0"/>
+      <unit id="org.eclipse.xtext.runtime.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.xtend.sdk.feature.group" version="0.0.0"/>
       <repository location="https://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.36.0/"/>
     </location>
