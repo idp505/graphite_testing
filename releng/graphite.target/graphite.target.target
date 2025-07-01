@@ -92,12 +92,6 @@
 	    <unit id="org.eclipse.sirius.specifier.ide.ui.source.feature.group" version="7.0.6.202211251449"/>
 	    <unit id="org.eclipse.sirius.specifier.properties.feature.source.feature.group" version="7.0.6.202211251449"/>
 	    <unit id="org.eclipse.sirius.specifier.source.feature.group" version="7.0.6.202211251449"/>
-	    <unit id="org.eclipse.sirius.tests.feature.group" version="7.0.6.202211251449"/>
-	    <unit id="org.eclipse.sirius.tests.rcptt.feature.feature.group" version="7.0.6.202211251449"/>
-	    <unit id="org.eclipse.sirius.tests.rcptt.feature.source.feature.group" version="7.0.6.202211251449"/>
-	    <unit id="org.eclipse.sirius.tests.source.feature.group" version="7.0.6.202211251449"/>
-	    <unit id="org.eclipse.sirius.tests.support.feature.group" version="7.0.6.202211251449"/>
-	    <unit id="org.eclipse.sirius.tests.support.source.feature.group" version="7.0.6.202211251449"/>
     </location>
     <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
       <unit id="org.eclipse.epsilon.dt.epackageregistryexplorer" version="0.0.0"/>
