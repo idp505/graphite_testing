@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
-<target name="Graphite Target Platform" sequenceNumber="1751329818">
+<target name="Graphite Target Platform" sequenceNumber="1751329952">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.eclipse.license.feature.group" version="0.0.0"/>
@@ -58,10 +58,6 @@
       <unit id="org.eclipse.epsilon.emc.emf.dt" version="0.0.0"/>
       <unit id="org.eclipse.epsilon.emc.plainxml" version="0.0.0"/>
       <repository location="http://download.eclipse.org/epsilon/updates/2.8/"/>
-    </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
-      <unit id="org.apache.commons.lang3" version="0.0.0"/>
-      <repository location="https://download.eclipse.org/tools/orbit/downloads/drops/R20230531010532/repository/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.eclipse.emf.mwe2.language.sdk.feature.group" version="0.0.0"/>
