@@ -29,3 +29,15 @@ location "https://download.eclipse.org/releases/2022-12" {
 	org.eclipse.ui.workbench.texteditor
 }
 
+
+location "http://download.eclipse.org/epsilon/updates/2.8/" {
+	org.eclipse.epsilon.dt.epackageregistryexplorer lazy
+	org.eclipse.epsilon.emc.emf lazy
+	org.eclipse.epsilon.eol.dt lazy
+	org.eclipse.epsilon.egl.engine lazy
+	org.eclipse.epsilon.evl.emf.validation lazy
+	org.eclipse.epsilon.evl.engine lazy
+	org.eclipse.epsilon.emc.emf.dt lazy
+	org.eclipse.epsilon.emc.plainxml lazy
+}
+
