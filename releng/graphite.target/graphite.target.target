@@ -7,29 +7,10 @@
       <repository location="https://download.eclipse.org/cbi/updates/license"/>
     </location>
     <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-      <unit id="org.eclipse.e4.core.tools.feature.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.emf.sdk.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.emf.validation.sdk.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.equinox.sdk.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.jdt.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.jdt.ui" version="3.27.100.v20221122-0749"/>
-      <unit id="org.eclipse.pde.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.platform.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.sdk" version="0.0.0"/>
-      <unit id="org.eclipse.rcp.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.sdk.ide" version="0.0.0"/>
-      <unit id="org.eclipse.egit.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.ocl.all.sdk.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.eef.sdk.feature.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.xsd.sdk.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.m2m.qvt.oml.sdk.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.emf.common.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.emf.transaction.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.emf.compare.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.gef.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.draw2d.feature.group" version="3.15.0.202211301913"/>
-      <unit id="org.eclipse.ui.workbench.texteditor" version="3.16.600.v20220809-1658"/>
       <repository location="https://download.eclipse.org/releases/2022-12"/>
+	    <unit id="org.eclipse.gmf.feature.group" version="1.15.3.202211041032"/>
+	    <unit id="org.eclipse.gmf.runtime.notation.sdk.feature.group" version="1.13.1.202211151334"/>
+	    <unit id="org.eclipse.gmf.runtime.sdk.feature.group" version="1.15.3.202211041032"/>
     </location>
     <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
       <unit id="org.eclipse.xtext.sdk.feature.group" version="2.36.0.v20240825-0714"/>
