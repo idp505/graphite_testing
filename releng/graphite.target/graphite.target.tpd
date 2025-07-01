@@ -45,24 +45,17 @@ location "https://download.eclipse.org/acceleo/updates/releases/3.7/" {
 	org.eclipse.acceleo.ui.interpreter.feature.group lazy
 }
 
-location "http://download.eclipse.org/epsilon/updates/2.7/" {
+location "http://download.eclipse.org/epsilon/updates/2.5/" {
 	org.eclipse.epsilon.dt.epackageregistryexplorer lazy
 	org.eclipse.epsilon.emc.emf lazy
-	org.eclipse.epsilon.eol.dap lazy
+	org.eclipse.epsilon.common lazy
+	org.eclipse.epsilon.common.dt lazy
 	org.eclipse.epsilon.eol.dt lazy
 	org.eclipse.epsilon.egl.engine lazy
 	org.eclipse.epsilon.evl.emf.validation lazy
 	org.eclipse.epsilon.evl.engine lazy
 	org.eclipse.epsilon.emc.emf.dt lazy
-}
-
-location "https://download.eclipse.org/lsp4j/updates/releases/0.23.1/" {
-	org.eclipse.lsp4j.debug lazy
-}
-
-location "https://download.eclipse.org/lsp4e/releases/0.26.3/" {
-	org.eclipse.lsp4e lazy
-	org.eclipse.lsp4e.debug lazy
+	org.eclipse.epsilon.emc.plainxml lazy
 }
 
 location "https://download.eclipse.org/tools/orbit/downloads/drops/R20230531010532/repository/" {

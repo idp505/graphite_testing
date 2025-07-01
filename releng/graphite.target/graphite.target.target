@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
-<target name="Graphite Target Platform" sequenceNumber="1751367785">
+<target name="Graphite Target Platform" sequenceNumber="1751367988">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.eclipse.license.feature.group" version="0.0.0"/>
@@ -51,22 +51,15 @@
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.eclipse.epsilon.dt.epackageregistryexplorer" version="0.0.0"/>
       <unit id="org.eclipse.epsilon.emc.emf" version="0.0.0"/>
-      <unit id="org.eclipse.epsilon.eol.dap" version="0.0.0"/>
+      <unit id="org.eclipse.epsilon.common" version="0.0.0"/>
+      <unit id="org.eclipse.epsilon.common.dt" version="0.0.0"/>
       <unit id="org.eclipse.epsilon.eol.dt" version="0.0.0"/>
       <unit id="org.eclipse.epsilon.egl.engine" version="0.0.0"/>
       <unit id="org.eclipse.epsilon.evl.emf.validation" version="0.0.0"/>
       <unit id="org.eclipse.epsilon.evl.engine" version="0.0.0"/>
       <unit id="org.eclipse.epsilon.emc.emf.dt" version="0.0.0"/>
-      <repository location="http://download.eclipse.org/epsilon/updates/2.7/"/>
-    </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
-      <unit id="org.eclipse.lsp4j.debug" version="0.0.0"/>
-      <repository location="https://download.eclipse.org/lsp4j/updates/releases/0.23.1/"/>
-    </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
-      <unit id="org.eclipse.lsp4e" version="0.0.0"/>
-      <unit id="org.eclipse.lsp4e.debug" version="0.0.0"/>
-      <repository location="https://download.eclipse.org/lsp4e/releases/0.26.3/"/>
+      <unit id="org.eclipse.epsilon.emc.plainxml" version="0.0.0"/>
+      <repository location="http://download.eclipse.org/epsilon/updates/2.5/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.apache.commons.lang3" version="0.0.0"/>
