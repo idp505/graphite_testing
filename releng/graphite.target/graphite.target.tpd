@@ -42,6 +42,9 @@ location "http://download.eclipse.org/sirius/updates/releases/7.0.6/2021-06" {
 	org.eclipse.sirius.specifier.properties.feature.feature.group lazy
 	org.eclipse.sirius.properties.feature.feature.group lazy
 	org.eclipse.sirius.aql.feature.group lazy
+	org.eclipse.sirius.runtime.ide.ui.acceleo.feature.group lazy
+	org.eclipse.sirius.runtime.acceleo.feature.group lazy
+	org.eclipse.sirius.runtime.aql.feature.group lazy
 }
 
 location "https://download.eclipse.org/acceleo/updates/releases/3.7/" {
