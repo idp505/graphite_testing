@@ -63,3 +63,7 @@ location "http://download.eclipse.org/emfatic/update" {
 location "https://download.eclipse.org/tools/orbit/downloads/drops/R20230531010532/repository/" {
 	org.apache.commons.lang3 lazy
 }
+
+location "https://download.eclipse.org/modeling/emft/mwe/updates/releases/" {
+	org.eclipse.emf.mwe2.language.sdk.feature.group lazy
+}
