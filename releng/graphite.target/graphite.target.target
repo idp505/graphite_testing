@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
-<target name="Graphite Target Platform" sequenceNumber="1751385666">
+<target name="Graphite Target Platform" sequenceNumber="1751386642">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.eclipse.license.feature.group" version="0.0.0"/>
@@ -66,6 +66,12 @@
       <unit id="org.apache.commons.logging" version="0.0.0"/>
       <unit id="org.apache.log4j" version="0.0.0"/>
       <repository location="https://download.eclipse.org/tools/orbit/downloads/drops/R20230531010532/repository/"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
+      <unit id="org.eclipse.emf.mwe2.language.sdk.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.emf.mwe2.lib" version="0.0.0"/>
+      <unit id="org.eclipse.emf.mwe.utils" version="0.0.0"/>
+      <repository location="https://download.eclipse.org/modeling/emft/mwe/updates/releases/"/>
     </location>
   </locations>
   <targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17"/>

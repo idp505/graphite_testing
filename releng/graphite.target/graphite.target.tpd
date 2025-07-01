@@ -30,8 +30,8 @@ location "https://download.eclipse.org/releases/2022-12" {
 }
 
 location "https://download.eclipse.org/releases/2024-09" {
-	org.eclipse.xtext.sdk.feature.group lazy
-	org.eclipse.xtend.sdk.feature.group lazy
+	org.eclipse.xtext.sdk.feature.group	lazy
+	org.eclipse.xtend.sdk.feature.group	lazy
 }
 
 location "http://download.eclipse.org/sirius/updates/releases/7.0.6/2021-06" {
@@ -62,4 +62,10 @@ location "https://download.eclipse.org/tools/orbit/downloads/drops/R202305310105
 	org.apache.commons.lang3 lazy
 	org.apache.commons.logging lazy
 	org.apache.log4j lazy
+}
+
+location "https://download.eclipse.org/modeling/emft/mwe/updates/releases/" {
+	org.eclipse.emf.mwe2.language.sdk.feature.group lazy
+	org.eclipse.emf.mwe2.lib lazy
+    org.eclipse.emf.mwe.utils lazy
 }
