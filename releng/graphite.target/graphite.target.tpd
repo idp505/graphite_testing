@@ -35,7 +35,14 @@ location "https://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.36.
 	org.eclipse.xtend.sdk.feature.group lazy
 }
 
-location "http://download.eclipse.org/sirius/updates/releases/7.0.6/2021-06"
+location "http://download.eclipse.org/sirius/updates/releases/7.0.6/2021-06" {
+	org.eclipse.sirius.runtime.feature.group lazy
+	org.eclipse.sirius.runtime.ide.ui.feature.group lazy
+	org.eclipse.sirius.specifier.feature.group lazy
+	org.eclipse.sirius.specifier.properties.feature.feature.group lazy
+	org.eclipse.sirius.properties.feature.feature.group lazy
+	org.eclipse.sirius.aql.feature.group lazy
+}
 
 location "https://download.eclipse.org/acceleo/updates/releases/3.7/" {
 	org.eclipse.acceleo.ui.interpreter.feature.group lazy
