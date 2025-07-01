@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
-<target name="Graphite Target Platform" sequenceNumber="1751329546">
+<target name="Graphite Target Platform" sequenceNumber="1751329628">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.eclipse.license.feature.group" version="0.0.0"/>
@@ -31,21 +31,6 @@
       <unit id="org.eclipse.draw2d.feature.group" version="3.15.0.202211301913"/>
       <unit id="org.eclipse.ui.workbench.texteditor" version="3.16.600.v20220809-1658"/>
       <repository location="https://download.eclipse.org/releases/2022-12"/>
-    </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
-      <unit id="org.eclipse.epsilon.dt.epackageregistryexplorer" version="0.0.0"/>
-      <unit id="org.eclipse.epsilon.emc.emf" version="0.0.0"/>
-      <unit id="org.eclipse.epsilon.eol.dt" version="0.0.0"/>
-      <unit id="org.eclipse.epsilon.egl.engine" version="0.0.0"/>
-      <unit id="org.eclipse.epsilon.evl.emf.validation" version="0.0.0"/>
-      <unit id="org.eclipse.epsilon.evl.engine" version="0.0.0"/>
-      <unit id="org.eclipse.epsilon.emc.emf.dt" version="0.0.0"/>
-      <unit id="org.eclipse.epsilon.emc.plainxml" version="0.0.0"/>
-      <repository location="http://download.eclipse.org/epsilon/updates/2.8/"/>
-    </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
-      <unit id="org.eclipse.emf.emfatic.feature.group" version="0.0.0"/>
-      <repository location="http://download.eclipse.org/emfatic/update"/>
     </location>
   </locations>
   <targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17"/>
