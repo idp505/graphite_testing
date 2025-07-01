@@ -48,7 +48,6 @@ location "https://download.eclipse.org/acceleo/updates/releases/3.7/" {
 location "http://download.eclipse.org/epsilon/updates/2.5/" {
 	org.eclipse.epsilon.dt.epackageregistryexplorer lazy
 	org.eclipse.epsilon.emc.emf lazy
-	org.eclipse.epsilon.common lazy
 	org.eclipse.epsilon.common.dt lazy
 	org.eclipse.epsilon.eol.dt lazy
 	org.eclipse.epsilon.egl.engine lazy
