@@ -297,7 +297,7 @@ version(s), and exceptions or additional permissions here}.&quot;
       <discovery label="Xtext installation" url="https://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.36.0/"/>
       <discovery label="Sirius installattion" url="http://download.eclipse.org/sirius/updates/releases/7.0.6/2021-06"/>
       <discovery label="Acceleo Installation" url="https://download.eclipse.org/acceleo/updates/releases/3.7/"/>
-      <discovery label="Epsilon Installation" url="http://download.eclipse.org/epsilon/updates/2.8/"/>
+      <discovery label="Epsilon Installation" url="http://download.eclipse.org/epsilon/updates/2.7/"/>
       <discovery label="Emfatic Installation" url="http://download.eclipse.org/emfatic/update"/>
    </url>
 

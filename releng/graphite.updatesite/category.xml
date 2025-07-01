@@ -4,5 +4,5 @@
       <category name="graphite.category"/>
    </feature>
    <category-def name="graphite.category" label="Graphite"/>
-   <repository-reference location="http://download.eclipse.org/epsilon/updates/2.8/" name="Epsilon 2.8" enabled="true" />
+   <repository-reference location="http://download.eclipse.org/epsilon/updates/2.7/" name="Epsilon 2.7" enabled="true" />
 </site>
