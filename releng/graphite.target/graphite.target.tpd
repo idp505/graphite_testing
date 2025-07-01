@@ -64,12 +64,6 @@ location "http://download.eclipse.org/epsilon/updates/2.5/" {
 	org.eclipse.epsilon.emc.plainxml lazy
 }
 
-location "https://download.eclipse.org/tools/orbit/downloads/drops/R20230531010532/repository/" {
-	org.apache.commons.lang3 lazy
-	org.apache.commons.logging lazy
-	org.apache.log4j lazy
-}
-
 location "https://download.eclipse.org/modeling/emft/mwe/updates/releases/" {
 	org.eclipse.emf.mwe2.language.sdk.feature.group lazy
 	org.eclipse.emf.mwe2.lib lazy
