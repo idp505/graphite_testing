@@ -29,6 +29,21 @@ location "https://download.eclipse.org/releases/2022-12" {
 	org.eclipse.ui.workbench.texteditor
 }
 
+location "https://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.36.0/" {
+	org.eclipse.xtext.sdk.feature.group
+}
+
+location "http://download.eclipse.org/sirius/updates/releases/7.0.6/2021-06" {
+	org.eclipse.sirius.runtime.feature.group lazy
+	org.eclipse.sirius.runtime.ide.ui.feature.group lazy
+	org.eclipse.sirius.specifier.feature.group lazy
+	org.eclipse.sirius.specifier.properties.feature.feature.group lazy
+	org.eclipse.sirius.properties.feature.feature.group lazy
+}
+
+location "https://download.eclipse.org/acceleo/updates/releases/3.7/" {
+	org.eclipse.acceleo.ui.interpreter.feature.group lazy
+}
 
 location "http://download.eclipse.org/epsilon/updates/2.8/" {
 	org.eclipse.epsilon.dt.epackageregistryexplorer lazy
@@ -41,3 +56,10 @@ location "http://download.eclipse.org/epsilon/updates/2.8/" {
 	org.eclipse.epsilon.emc.plainxml lazy
 }
 
+location "https://download.eclipse.org/tools/orbit/downloads/drops/R20230531010532/repository/" {
+	org.apache.commons.lang3 lazy
+}
+
+location "https://download.eclipse.org/modeling/emft/mwe/updates/releases/" {
+	org.eclipse.emf.mwe2.language.sdk.feature.group lazy
+}
