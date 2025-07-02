@@ -27,6 +27,7 @@ location "https://download.eclipse.org/releases/2022-12" {
 	org.eclipse.gef.feature.group lazy
 	org.eclipse.draw2d.feature.group
 	org.eclipse.ui.workbench.texteditor
+	org.eclipse.gmf.runtime.sdk.feature.group
 }
 
 location "https://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.36.0/" {
