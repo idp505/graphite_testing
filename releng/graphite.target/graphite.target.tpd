@@ -57,6 +57,7 @@ location "http://download.eclipse.org/epsilon/updates/2.5/" {
 
 location "https://download.eclipse.org/tools/orbit/downloads/drops/R20230531010532/repository/" {
 	org.apache.commons.lang3 lazy
+	org.apache.commons.logging lazy
 }
 
 location "https://download.eclipse.org/modeling/emft/mwe/updates/releases/" {
