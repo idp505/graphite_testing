@@ -39,6 +39,6 @@ Require-Bundle: org.eclipse.emf.transaction,
  org.eclipse.epsilon.evl.engine;bundle-version="2.5.0",
  org.apache.commons.lang3
 Bundle-RequiredExecutionEnvironment: JavaSE-17
-Import-Package: org.apache.log4j;version="1.2.19"
+Import-Package: org.apache.log4j
 Automatic-Module-Name: graphite
 Bundle-ActivationPolicy: lazy
