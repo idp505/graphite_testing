@@ -6,7 +6,8 @@ Bundle-Version: 1.0.0.qualifier
 Export-Package: graphite.graphical,
  graphite.shared,
  graphite.textual,
- graphite.xtextwidget
+ graphite.xtextwidget,
+ graphite.xtextxmi
 Bundle-Activator: graphite.xtextxmi.Activator
 Require-Bundle: org.eclipse.emf.transaction,
  org.eclipse.emf.codegen.ecore;bundle-version="2.32.0",
